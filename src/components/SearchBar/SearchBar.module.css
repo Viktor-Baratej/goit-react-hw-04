@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(240, 222, 199);
+  padding: 20px 10px;
+  z-index: -2;
+  border-radius: 8px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.input {
+  background-color: #fff;
+  color: black;
+  padding: 6px 30px 10px 50px;
+  border-radius: 8px;
+  z-index: 0;
+  border: none;
+}
+
+.button {
+  color: black;
+  background-color: rgb(232, 194, 137);
+  margin-right: 40px;
+  z-index: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  &&:hover {
+    background-color: aqua;
+  }
+}

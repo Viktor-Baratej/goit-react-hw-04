@@ -1,0 +1,20 @@
+.button {
+  width: 130px;
+  background-color: rgb(232, 194, 137);
+  color: black;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 1.5px 1.5px;
+  transition: all 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: aqua;
+  transform: scale(1.02, 1.02);
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+}
